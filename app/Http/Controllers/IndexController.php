@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class IndexController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,9 +13,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //
-        return view('home');
-
+        //前台首页
+        return view('home.index');
     }
 
     /**
@@ -26,7 +25,6 @@ class HomeController extends Controller
     public function create()
     {
         //
-        
     }
 
     /**

@@ -15,12 +15,12 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/','HomeController@index');
+Route::get('/','IndexController@index');
 
 
 
 
+Auth::routes();
 
-
-
-
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home/addmemu','HomeController@addmenu');
