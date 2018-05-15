@@ -44,6 +44,23 @@
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                             <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                         @else
+   
+
+                        <li class="nav-item">
+                          <a class="nav-link active" href="/home/menulist">目录</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/home/articles">文章管理</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/taskindex">Tasks测试</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="/wangwenliwangwenli">后台首页</a>
+                        </li>
+
+
+
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>

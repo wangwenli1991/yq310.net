@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
+use App\Menus;
 use \DB;
 
-class IndexController extends Controller
+class MenuController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +16,12 @@ class IndexController extends Controller
      */
     public function index()
     {
-        //前台首页
         $menus=DB::table('menus')->get();
-        return view('home.index',compact('menus'));
+
+
+
+        // $menus = Menus::orderBy('created_at', 'asc')->get();
+        return view('menulist',compact('menus'));
     }
 
     /**

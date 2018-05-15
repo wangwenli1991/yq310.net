@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Articles;
 use \DB;
 
-class IndexController extends Controller
+class ArticleController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +15,13 @@ class IndexController extends Controller
      */
     public function index()
     {
-        //前台首页
+        
+
+        // $articles = Article::orderBy('created_at', 'asc')->get();
         $menus=DB::table('menus')->get();
-        return view('home.index',compact('menus'));
+
+        $articles = DB::table('articles')->get();
+        return view('articlelist',compact('articles','menus'));
     }
 
     /**
