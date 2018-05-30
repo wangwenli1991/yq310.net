@@ -12,6 +12,11 @@
     <th>image_url</th>
     <th>author_id</th>
     <th>author</th>
+    <th>修改</th>
+    <th>删除</th>
+    <th>
+        <a href=" {{ url('/home/addarticle') }} ">添加文章</a>
+    </th>
     </tr>
 
     @foreach($articles as $article)
@@ -24,11 +29,14 @@
     <td> {{ $article->image_url }} </td>
     <td> {{ $article->author_id }} </td>
     <td> {{ $article->author }} </td>
+    <td> <a href=" {{ url('/home/articleedit') }}/{{ $article->id }} ">编辑</a> </td>
+    <td> <a href="{{ url('/home/articledelete') }}/{{ $article->id }} ">删除</a> </td>
     </tr>
     @endforeach
 
 
 </table>
+{!! $articles->links() !!}
 
 
 

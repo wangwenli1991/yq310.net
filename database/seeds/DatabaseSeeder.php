@@ -11,14 +11,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
-        $this->call(ArticlesTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
+        $this->call(ArticleTableSeeder::class);
 
 
-        //数据工厂制造测试数据  
-        factory(App\Article::class, 50)->create()->each(function ($article) {  
-            $article->categories()->sync($article->category_id);  
-        });  
+
     }
 
 

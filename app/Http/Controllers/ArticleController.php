@@ -20,7 +20,7 @@ class ArticleController extends Controller
         // $articles = Article::orderBy('created_at', 'asc')->get();
         $menus=DB::table('menus')->get();
 
-        $articles = DB::table('articles')->get();
+        $articles = DB::table('articles')->paginate(15);
         return view('articlelist',compact('articles','menus'));
     }
 
