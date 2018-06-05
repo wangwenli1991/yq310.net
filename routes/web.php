@@ -30,7 +30,7 @@ Route::group(['middleware' => ['auth']], function () {
 
 
 
-	Route::get('/wangwenliwangwenli', 'HomeController@index')->name('home');
+	Route::get('/home', 'HomeController@index')->name('home');
 
 	//menu
 	Route::get('/home/menulist','MenuController@index');
