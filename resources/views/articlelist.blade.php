@@ -29,7 +29,7 @@
     <td> {{ $article->image_url }} </td>
     <td> {{ $article->author_id }} </td>
     <td> {{ $article->author }} </td>
-    <td> <a href=" {{ url('/home/articleedit') }}/{{ $article->id }} ">编辑</a> </td>
+    <td> <a href=" {{ url('/home/editarticle') }}/{{ $article->id }} ">编辑</a> </td>
     <td> 
         <form action="{{ url('/home/delarticle/'.$article->id) }}" method="POST">
             {{ csrf_field() }}
@@ -47,24 +47,6 @@
 
 </table>
 {!! $articles->links() !!}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -85,6 +85,12 @@ class ArticleController extends Controller
     public function edit($id)
     {
         //
+
+        $article= DB::table('articles')->where('id',$id)->first();
+
+
+        return view('editarticle',compact('id','article'));
+
     }
 
     /**
@@ -97,6 +103,20 @@ class ArticleController extends Controller
     public function update(Request $request, $id)
     {
         //
+        DB::table('articles')
+            ->where('id',$request->id)
+            ->update(
+                ['title'=>$request->title,
+                'body'=>$request->body,
+                'description'=>$request->description,
+                'category_id'=>$request->category_id,
+                'image_url'=>$request->image_url,
+                'author_id'=>$request->author_id,
+                'author'=>$request->author]
+
+            );
+            
+        return back();
     }
 
     /**

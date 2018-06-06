@@ -70,6 +70,8 @@ Route::group(['prefix' => '','middleware' => ['auth']], function () {
             return back();
         });
 
+        Route::get('/home/editarticle/{id}','ArticleController@edit');
+        Route::post('/home/updatearticle/{id}','ArticleController@update');
 
         
     //=================================================
