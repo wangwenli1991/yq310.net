@@ -108,5 +108,8 @@ class ArticleController extends Controller
     public function destroy($id)
     {
         //
+        echo 1;die;
+        dd($id);
+        DB::table('articles')->where('id',$id);
     }
 }

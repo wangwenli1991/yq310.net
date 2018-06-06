@@ -14,6 +14,9 @@ use App\Task;
 use App\Menu;
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\Input;
+
+
 
 Route::Auth();
 
@@ -62,6 +65,10 @@ Route::group(['prefix' => '','middleware' => ['auth']], function () {
         Route::get('/home/articles','ArticleController@index');
         Route::get('/home/addarticle','ArticleController@addarticle');
         Route::post('/home/storearticle','ArticleController@store');
+        Route::delete('/home/delarticle/{id}', function ($id) {
+            DB::table('articles')->where('id',$id)->delete();
+            return back();
+        });
 
 
         
