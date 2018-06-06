@@ -29,6 +29,15 @@ class ArticleController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function addarticle()
+    {
+
+        return view('addarticle');   
+    }
+
+
+
     public function create()
     {
         //
@@ -40,9 +49,20 @@ class ArticleController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+
+
     public function store(Request $request)
     {
-        //
+        //把后台添加的文章传到数据库
+
+        DB::table('articles')->insert(
+            ['title' => $request->title,'body' => $request->body,'description' => $request->description,'category_id' => $request->category_id,'image_url' => $request->image_url,'author_id' => $request->author_id,'author' => $request->author]
+
+        );
+
+        return back();
+
+
     }
 
     /**

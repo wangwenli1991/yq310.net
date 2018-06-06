@@ -17,18 +17,15 @@ use Illuminate\Http\Request;
 
 Route::Auth();
 
-
 //quickstart-basic
 //
 	Route::get('/','IndexController@index');
 
-Route::group(['middleware' => ['auth']], function () {
 
-
-
-
-
-
+/**
+* 后台  prefix 地址栏后缀   namespace 控制器目录
+**/
+Route::group(['prefix' => '','middleware' => ['auth']], function () {
 
 	Route::get('/home', 'HomeController@index')->name('home');
 
@@ -59,27 +56,16 @@ Route::group(['middleware' => ['auth']], function () {
     });
 
 
-//=================================================文章管理
-//
+    //=================================================文章管理
+    //
 
-    Route::get('/home/articles','ArticleController@index');
-
-    
-
-
+        Route::get('/home/articles','ArticleController@index');
+        Route::get('/home/addarticle','ArticleController@addarticle');
+        Route::post('/home/storearticle','ArticleController@store');
 
 
-
-
-
-
-
-
-
-
-
-//=================================================
-
+        
+    //=================================================
 
 
 
