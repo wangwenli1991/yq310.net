@@ -13,7 +13,7 @@
     <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <title>Product example for Bootstrap</title>
+    <title>上海婚礼婚庆公司,上海婚礼策划,上海婚庆策划,上海活动策划,舞台搭建,花圈花篮,活动布置,咨询电话:17002179909</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
