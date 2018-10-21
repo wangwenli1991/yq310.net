@@ -43,15 +43,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">首页
+              <a class="nav-link" href="/">首页
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">关于婚礼网</a>
+              <a class="nav-link" href="about">关于婚礼网</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">婚礼网相册</a>
+              <a class="nav-link" href="gallery">婚礼网相册</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -59,12 +59,12 @@
                 婚礼网服务
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-center" href="stories.html">成功案例</a>
-                <a class="dropdown-item text-center" href="typography.html">其他表单</a>
+                <a class="dropdown-item text-center" href="stories">成功案例</a>
+                <a class="dropdown-item text-center" href="typography">其他表单</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">联系我们</a>
+              <a class="nav-link" href="contact">联系我们</a>
             </li>
           </ul>
           <form action="#" method="post" class="form-inline my-2 my-lg-0 search mx-lg-auto">

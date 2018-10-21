@@ -20,6 +20,51 @@ class IndexController extends Controller
         return view('hunli.home',compact('menus'));
     }
 
+
+    public function about()
+    {
+        //前台首页
+        $menus=DB::table('menus')->get();
+
+        return view('hunli.about',compact('menus'));
+    }
+
+    public function gallery()
+    {
+        //前台首页
+        $menus=DB::table('menus')->get();
+
+        return view('hunli.gallery',compact('menus'));
+    }
+
+    public function stories()
+    {
+        //前台首页
+        $menus=DB::table('menus')->get();
+
+        return view('hunli.stories',compact('menus'));
+    }
+
+    public function typography()
+    {
+        //前台首页
+        $menus=DB::table('menus')->get();
+
+        return view('hunli.typography',compact('menus'));
+    }
+
+    public function contact()
+    {
+        //前台首页
+        $menus=DB::table('menus')->get();
+
+        return view('hunli.contact',compact('menus'));
+    }
+
+
+
+
+
     /**
      * Show the form for creating a new resource.
      *
