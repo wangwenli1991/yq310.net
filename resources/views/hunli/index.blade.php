@@ -6,7 +6,7 @@
   <!-- Meta-Tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <meta name="keywords" content="上海婚礼网" />
+  <meta name="keywords" content="上海婚礼网,婚礼策划,海外婚礼,婚礼布置，婚庆公司" />
   <script>
     addEventListener("load", function () {
       setTimeout(hideURLbar, 0);
