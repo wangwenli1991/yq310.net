@@ -8,10 +8,10 @@
           <ul class="rslides" id="slider3">
             <li>
               <div class="slider-info">
-                <h3>Jesse & Kevin</h3>
-                <p>21 April 2018</p>
-                <h1 class="text-right mt-lg-0 mt-md-3 mt-sm-4 mt-3">We're waiting for the best</h1>
-                <a href="stories.html" class="text-right">Our Story</a>
+                <h3>小王和小丽</h3>
+                <p>2018年9月28日</p>
+                <h1 class="text-right mt-lg-0 mt-md-3 mt-sm-4 mt-3">我们都在等待最好的</h1>
+                <a href="stories.html" class="text-right">我们的故事</a>
               </div>
             </li>
             <li>
@@ -40,7 +40,7 @@
   <!--about-->
   <section class="about-section py-5" id="about">
     <div class="container py-xl-5 py-sm-3">
-      <h5 class="main-w3l-title mb-sm-3 mb-2">About Us</h5>
+      <h5 class="main-w3l-title mb-sm-3 mb-2">关于我们的婚礼</h5>
       <div class="about-top">
         <h3 class="subheading-wthree mb-3">Something About Us</h3>
         <p class="paragraph-agileinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tristique est, et egestas odio. Mauris ac tristique

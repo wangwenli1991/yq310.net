@@ -15,6 +15,7 @@ class IndexController extends Controller
     public function index()
     {
         //前台首页
+
         $menus=DB::table('menus')->get();
 
         return view('hunli.home',compact('menus'));
