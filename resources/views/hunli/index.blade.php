@@ -34,7 +34,7 @@
     <!-- header -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Marry Off</a>
+        <a class="navbar-brand" href="index.html">婚礼婚庆网</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -86,7 +86,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 footer-grids-w3-agile">
-          <h2>Instagram Tweets</h2>
+          <h2>最新婚礼案例</h2>
           <div class="row ff-images">
             <a href="stories.html" class="col-4">
               <img src="images/s1.jpg" class="img-fluid" alt="Responsive image">
@@ -109,24 +109,24 @@
           </div>
         </div>
         <div class="col-lg-4 footer-grids-w3-agile">
-          <h3>Get in touch</h3>
+          <h3>联系婚礼网</h3>
           <address>
-            <p>Congress Yerevan, 1 Italy St, Yerevan,</p>
-            <p class="my-2">Armenia,No 008921</p>
-            <p class="phone">phone: +0(21) 334 5678</p>
-            <p class="phone my-2">Fax: +0(21) 334 5678</p>
-            <p class="phone">Mail:
-              <a href="mailto:info@example.com">info@example.com</a>
+            <p>上海,苏州,无锡</p>
+            <p class="my-2">上海市区</p>
+            <p class="phone">电话:156-0185-2720</p>
+            <p class="phone my-2">幸福热线:15601852720</p>
+            <p class="phone">婚礼网邮件:
+              <a href="mailto:">2581133606@qq.com</a>
             </p>
           </address>
         </div>
         <div class="col-lg-4 footer-grids-w3-agile">
-          <h3>Twitter feed</h3>
+          <h3>最新婚礼网资讯</h3>
           <ul class="w3agile_footer_grid_list">
             <li>Ut aut reiciendis voluptatibus adipiscing
               <a href="#">example.com</a> alias, ut aut.
               <span>
-                <i class="fab fa-twitter"></i> 02 days ago</span>
+                <i class="fa带b fa-twitter"></i> 02 days ago</span>
             </li>
             <li>Itaque earum rerum hic tenetur a sapiente
               <a href="#">example.com</a> ut aut.
