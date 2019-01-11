@@ -142,7 +142,7 @@
   <!-- copyright -->
   <div class="copyright-w3layouts">
     <div class="container">
-      <p class="py-xl-4 py-3">Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://www.aspku.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+      <p class="py-xl-4 py-3">Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://www.goodhunli.com">婚礼婚庆网</a>
       </p>
     </div>
   </div>
