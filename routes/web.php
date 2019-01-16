@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Input;
 
+
+
+
 Route::Auth();
 
 //quickstart-basic
