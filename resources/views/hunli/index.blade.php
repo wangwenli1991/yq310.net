@@ -143,6 +143,7 @@
   <div class="copyright-w3layouts">
     <div class="container">
       <p class="py-xl-4 py-3">Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://www.goodhunli.com">婚礼婚庆网</a>
+        <a href="http://www.miitbeian.gov.cn">皖ICP备17000855号-9</a>
       </p>
     </div>
   </div>
