@@ -8,7 +8,7 @@
           <ul class="rslides" id="slider3">
             <li>
               <div class="slider-info">
-                <h3>小王和小丽</h3>
+                <h3>小明和小红的婚礼</h3>
                 <p>2018年9月28日</p>
                 <h1 class="text-right mt-lg-0 mt-md-3 mt-sm-4 mt-3">我们都在等待最好的</h1>
                 <a href="stories.html" class="text-right">我们的故事</a>
