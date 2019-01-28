@@ -8,10 +8,10 @@
           <ul class="rslides" id="slider3">
             <li>
               <div class="slider-info">
-                <h3>小明和小红的婚礼</h3>
-                <p>2018年9月28日</p>
-                <h1 class="text-right mt-lg-0 mt-md-3 mt-sm-4 mt-3">我们都在等待最好的</h1>
-                <a href="stories.html" class="text-right">我们的故事</a>
+                <h3>常年代理各种品牌工业皮带</h3>
+                <p>2006年-2018年,从代理到自产,拥有众多品牌型号的工业皮带渠道</p>
+                <h1 class="text-right mt-lg-0 mt-md-3 mt-sm-4 mt-3">售后完善,订单流程成熟</h1>
+                <a href="stories.html" class="text-right">国产进口工业皮带代理生产经销商</a>
               </div>
             </li>
             <li>
