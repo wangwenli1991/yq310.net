@@ -60,16 +60,21 @@
                 输送带
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-center" href="stories">成功案例</a>
-                <a class="dropdown-item text-center" href="typography">其他表单</a>
+                <a class="dropdown-item text-center" href="stories">橡胶输送带</a>
+                <a class="dropdown-item text-center" href="typography">挡边输送带</a>
+                <a class="dropdown-item text-center" href="typography">PVC输送带</a>
+                <a class="dropdown-item text-center" href="typography">耐高温输送带</a>
+                <a class="dropdown-item text-center" href="typography">硅胶输送带</a>
+                <a class="dropdown-item text-center" href="typography">特氟龙输送带</a>
+                <a class="dropdown-item text-center" href="typography">输送带托辊</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact">联系购买</a>
+              <a class="nav-link" href="contact">在线咨询价格</a>
             </li>
           </ul>
           <form action="#" method="post" class="form-inline my-2 my-lg-0 search mx-lg-auto">
-            <input class="form-control mr-sm-2" type="search" placeholder="搜索婚礼风格 ..." name="Search" required="">
+            <input class="form-control mr-sm-2" type="search" placeholder="搜索 ..传送带种类." name="Search" required="">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
           </form>
         </div>
@@ -87,7 +92,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 footer-grids-w3-agile">
-          <h2>最新婚礼案例</h2>
+          <h2>最新皮带报价</h2>
           <div class="row ff-images">
             <a href="stories.html" class="col-4">
               <img src="images/s1.jpg" class="img-fluid" alt="Responsive image">
