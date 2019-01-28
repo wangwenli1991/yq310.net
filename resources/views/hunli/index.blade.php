@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 
 <head>
-  <title>上海婚礼网,上海舞台搭建，上海婚礼布置，上海鲜花布置</title>
+  <title>输送带_三角带_同步带_山东泰安工业皮带批发代理厂家_官网</title>
   <!-- Meta-Tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <meta name="keywords" content="上海婚礼网,婚礼策划,海外婚礼,婚礼布置，婚庆公司" />
+  <meta name="keywords" content="输送带批发_三角带批发_同步带批发_工业皮带批发_传送带厂家" />
+  <meta name="keywords" content="上海/山东/泰安/从2006年开始从事传送带输送带,传动带等工业皮带的生产销售代理批发业务,主要产品有传送带,动力带,输送带,毛毡带等,品牌有Optibelt欧皮特,DERCO,芬纳活络带,供应国内很多厂家,爱科切纸机垫,经纬切割机都是我们供货" />
   <script>
     addEventListener("load", function () {
       setTimeout(hideURLbar, 0);
@@ -34,7 +35,7 @@
     <!-- header -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">婚礼婚庆网</a>
+        <a class="navbar-brand" href="index.html">工业皮带网</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -43,20 +44,20 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/">首页
+              <a class="nav-link" href="/">工业皮带代理
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about">关于婚礼网</a>
+              <a class="nav-link" href="about">三角带</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery">婚礼网相册</a>
+              <a class="nav-link" href="gallery">同步带</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                   aria-expanded="false">
-                婚礼网服务
+                输送带
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item text-center" href="stories">成功案例</a>
@@ -64,7 +65,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact">联系我们</a>
+              <a class="nav-link" href="contact">联系购买</a>
             </li>
           </ul>
           <form action="#" method="post" class="form-inline my-2 my-lg-0 search mx-lg-auto">
@@ -109,19 +110,19 @@
           </div>
         </div>
         <div class="col-lg-4 footer-grids-w3-agile">
-          <h3>联系婚礼网</h3>
+          <h3>联系工业皮带网</h3>
           <address>
             <p>上海,苏州,无锡</p>
             <p class="my-2">上海市区</p>
             <p class="phone">电话:156-0185-2720</p>
             <p class="phone my-2">幸福热线:15601852720</p>
-            <p class="phone">婚礼网邮件:
+            <p class="phone">皮带网邮件:
               <a href="mailto:">2581133606@qq.com</a>
             </p>
           </address>
         </div>
         <div class="col-lg-4 footer-grids-w3-agile">
-          <h3>最新婚礼网资讯</h3>
+          <h3>最新皮带网资讯</h3>
           <ul class="w3agile_footer_grid_list">
             <li>Ut aut reiciendis voluptatibus adipiscing
               <a href="#">example.com</a> alias, ut aut.
@@ -142,7 +143,7 @@
   <!-- copyright -->
   <div class="copyright-w3layouts">
     <div class="container">
-      <p class="py-xl-4 py-3">Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://www.goodhunli.com">婚礼婚庆网</a>
+      <p class="py-xl-4 py-3">Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="{{ url('/') }}">工业皮带网</a>
         <a href="http://www.miitbeian.gov.cn">皖ICP备17000855号-9</a>
       </p>
     </div>
