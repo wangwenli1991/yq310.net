@@ -40,7 +40,7 @@
   <!--about-->
   <section class="about-section py-5" id="about">
     <div class="container py-xl-5 py-sm-3">
-      <h5 class="main-w3l-title mb-sm-3 mb-2">关于我们的婚礼</h5>
+      <h5 class="main-w3l-title mb-sm-3 mb-2">关于工业传送带网</h5>
       <div class="about-top">
         <h3 class="subheading-wthree mb-3">Something About Us</h3>
         <p class="paragraph-agileinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tristique est, et egestas odio. Mauris ac tristique
