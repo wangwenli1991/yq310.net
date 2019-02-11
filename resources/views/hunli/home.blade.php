@@ -42,9 +42,11 @@
     <div class="container py-xl-5 py-sm-3">
       <h5 class="main-w3l-title mb-sm-3 mb-2">关于工业传送带网</h5>
       <div class="about-top">
-        <h3 class="subheading-wthree mb-3">Something About Us</h3>
-        <p class="paragraph-agileinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tristique est, et egestas odio. Mauris ac tristique
-          arcu, sed interdum risus.Integer quis tristique est, et egestas odio. Mauris ac tristique arcu, sed interdum risus.
+        <h3 class="subheading-wthree mb-3">同步带比三角带有哪些好处</h3>
+        <p class="paragraph-agileinfo">1、工作时无滑动，有准确的传动比  2、传动效率高，节能效果好
+ 3、传动比范围大，结构紧凑  4、维护保养方便，运转费用低
+
+
         </p>
       </div>
       <div class="about-main row d-lg-flex justify-content-around">
